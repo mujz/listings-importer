@@ -1,0 +1,16 @@
+services:
+  app:
+    image: ruby:3.3.4
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: tail -f /dev/null
+    depends_on:
+      - db
+
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: rails
+      POSTGRES_DB: rails_dev_db
+      POSTGRES_PASSWORD: password
