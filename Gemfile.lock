@@ -88,6 +88,7 @@ GEM
       irb (~> 1.10)
       reline (>= 0.3.8)
     diff-lcs (1.5.1)
+    dotenv (3.1.2)
     drb (2.2.1)
     erubi (1.13.0)
     globalid (1.2.1)
@@ -260,6 +261,7 @@ DEPENDENCIES
   brakeman
   csv
   debug
+  dotenv
   pg (~> 1.1)
   rails (~> 7.2.0)
   rspec-rails

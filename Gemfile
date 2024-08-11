@@ -22,4 +22,6 @@ group :development, :test do
   gem "rubocop-rspec_rails", require: false
 
   gem "rspec-rails"
+
+  gem "dotenv"
 end
