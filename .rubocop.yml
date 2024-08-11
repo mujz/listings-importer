@@ -17,5 +17,9 @@ Style/MethodCallWithArgsParentheses:
     - yield
     - raise
     - puts
+    # RSpec
+    - to
+    - not_to
+    - and
   Exclude:
   - "/**/Gemfile"
